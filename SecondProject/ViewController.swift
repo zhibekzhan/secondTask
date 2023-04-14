@@ -9,9 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var UIView: UIView!
+    
+    @IBOutlet weak var buttonSignIn: UIButton!
+    
+    
+    
+    @IBAction func buttonShow(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        buttonSignIn.layer.cornerRadius = 12
+        UIView.layer.cornerRadius = 20
     }
 
 
